@@ -1,3 +1,4 @@
 # help
 * red
 * black
+* * * * * * * *
