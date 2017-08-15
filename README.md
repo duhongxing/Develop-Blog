@@ -11,4 +11,10 @@
 * red 
 * green 
 * blue
+4. > 有序列表
+###### 例如
+1. bird
+2. mouse 
+3. dog
+
 
