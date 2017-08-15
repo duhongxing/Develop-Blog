@@ -37,7 +37,7 @@ __MarkDown__
 8. > 行内图片 
 ![Alt text](/path/to/image.jpg)
 
-9. > 代码块
+9. > 代码块 使用``` 两层 将代码放入其中
 
 ```
 NSString *objc = @"markdown";
