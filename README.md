@@ -28,5 +28,5 @@
 <http://example.com/> 自动链接
 7. 强调 (*内容*)
 ###### 例如
-* MarkDown *
+*MarkDown*
 
