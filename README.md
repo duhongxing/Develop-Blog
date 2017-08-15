@@ -26,12 +26,14 @@
 6.链接 这是一个[链接文字]（http://example.com/ "Title"）行内连接
 [连接显示文字](http://example.net/) 没有title属性。
 <http://example.com/> 自动链接
-7. 强调 (** 内容 **、_ 内容 _、*** 内容 **、__ 内容 __)
+
+7. > 强调 (** 内容 **、_ 内容 _、*** 内容 **、__ 内容 __)
 ###### 例如
 *MarkDown*
 _MarkDown_
 **MarkDown**
 __MarkDown__
-8.行内图片 
+
+8. > 行内图片 
 ![Alt text](/path/to/image.jpg)
 
