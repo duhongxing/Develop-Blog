@@ -35,7 +35,7 @@ _MarkDown_
 __MarkDown__
 
 8. > 行内图片 
-![Alt text](/path/to/image.jpg)
+![iOS开发](https://github.com/duhongxing/HXHelper/blob/master/HXHelper/iOS%20%E5%BC%80%E5%8F%91.jpg)
 
 9. > 代码块 使用``` 两层 将代码放入其中
 
