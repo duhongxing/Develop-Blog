@@ -20,10 +20,10 @@
 2. mouse 
 3. dog
 
-5. 水平线 使用（ * * *、***、******、- - - 、---------------）
+5. > 水平线 使用（ * * *、***、******、- - - 、---------------）
 ###### 例如
 - - -
-6.链接 这是一个[链接文字]（http://example.com/ "Title"）行内连接
+6. > 链接 这是一个[链接文字]（http://example.com/ "Title"）行内连接
 [连接显示文字](http://example.net/) 没有title属性。
 <http://example.com/> 自动链接
 
@@ -37,3 +37,8 @@ __MarkDown__
 8. > 行内图片 
 ![Alt text](/path/to/image.jpg)
 
+9. > 代码块
+
+```
+NSString *objc = @"markdown";
+```
