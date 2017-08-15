@@ -24,5 +24,5 @@
 ###### 例如
 - - -
 6.链接 这是一个[链接文字]（http://example.com/ "Title"）行内连接
-[百度] (https://www.baidu.com)
+[百度] <https://www.baidu.com>
 
