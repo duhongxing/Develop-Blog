@@ -29,4 +29,9 @@
 7. 强调 (** 内容 **、_ 内容 _、*** 内容 **、__ 内容 __)
 ###### 例如
 *MarkDown*
+_MarkDown_
+**MarkDown**
+__MarkDown__
+8.行内图片 
+![Alt text](/path/to/image.jpg)
 
