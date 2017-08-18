@@ -1,31 +1,29 @@
 //
-//  ViewController.m
+//  HXBaseViewController.m
 //  HXHelper
 //
-//  Created by MacOS on 17/8/12.
+//  Created by MacOS on 2017/8/18.
 //  Copyright © 2017年 baitongshiji. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HXBaseViewController.h"
 
-@interface ViewController ()
+@interface HXBaseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HXBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-
-
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end

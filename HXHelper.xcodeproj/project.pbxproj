@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		221CE1B71F42F63A005B216D /* iOS 开发.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221CE1B61F42F63A005B216D /* iOS 开发.jpg */; };
-		227BC9511F3ECE99006C916D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227BC9501F3ECE99006C916D /* main.m */; };
-		227BC9541F3ECE99006C916D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227BC9531F3ECE99006C916D /* AppDelegate.m */; };
-		227BC9571F3ECE99006C916D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227BC9561F3ECE99006C916D /* ViewController.m */; };
 		227BC95A1F3ECE99006C916D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227BC9581F3ECE99006C916D /* Main.storyboard */; };
 		227BC95C1F3ECE99006C916D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227BC95B1F3ECE99006C916D /* Assets.xcassets */; };
 		227BC95F1F3ECE99006C916D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227BC95D1F3ECE99006C916D /* LaunchScreen.storyboard */; };
 		227BC96A1F3ECE99006C916D /* HXHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227BC9691F3ECE99006C916D /* HXHelperTests.m */; };
 		227BC9751F3ECE99006C916D /* HXHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227BC9741F3ECE99006C916D /* HXHelperUITests.m */; };
+		22AC4F381F46892B0042F4C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC4F371F46892B0042F4C7 /* ViewController.m */; };
+		22AC4F3A1F4689520042F4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC4F391F4689520042F4C7 /* main.m */; };
+		22AC4F3D1F4689640042F4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC4F3C1F4689640042F4C7 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,20 +39,23 @@
 		221CE1B61F42F63A005B216D /* iOS 开发.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS 开发.jpg"; sourceTree = "<group>"; };
 		227BC94C1F3ECE99006C916D /* HXHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227BC9501F3ECE99006C916D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		227BC9521F3ECE99006C916D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		227BC9531F3ECE99006C916D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		227BC9551F3ECE99006C916D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		227BC9561F3ECE99006C916D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		227BC9591F3ECE99006C916D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		227BC95B1F3ECE99006C916D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227BC95E1F3ECE99006C916D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		227BC9601F3ECE99006C916D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227BC9651F3ECE99006C916D /* HXHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227BC9691F3ECE99006C916D /* HXHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHelperTests.m; sourceTree = "<group>"; };
 		227BC96B1F3ECE99006C916D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227BC9701F3ECE99006C916D /* HXHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227BC9741F3ECE99006C916D /* HXHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHelperUITests.m; sourceTree = "<group>"; };
 		227BC9761F3ECE99006C916D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AC4F231F46867D0042F4C7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AC4F2C1F4687E00042F4C7 /* HXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBaseViewController.h; sourceTree = "<group>"; };
+		22AC4F2D1F4687E00042F4C7 /* HXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBaseViewController.m; sourceTree = "<group>"; };
+		22AC4F361F46892B0042F4C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22AC4F371F46892B0042F4C7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22AC4F391F4689520042F4C7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22AC4F3B1F4689640042F4C7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22AC4F3C1F4689640042F4C7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +106,20 @@
 		227BC94E1F3ECE99006C916D /* HXHelper */ = {
 			isa = PBXGroup;
 			children = (
-				227BC9521F3ECE99006C916D /* AppDelegate.h */,
-				227BC9531F3ECE99006C916D /* AppDelegate.m */,
-				227BC9551F3ECE99006C916D /* ViewController.h */,
-				227BC9561F3ECE99006C916D /* ViewController.m */,
+				22AC4F281F4687E00042F4C7 /* AppDelegate */,
+				22AC4F2B1F4687E00042F4C7 /* Base */,
+				22AC4F2E1F4687E00042F4C7 /* Config */,
+				22AC4F2F1F4687E00042F4C7 /* Manager */,
+				22AC4F301F4687E00042F4C7 /* Model */,
+				22AC4F251F4687D40042F4C7 /* Scene */,
 				227BC9581F3ECE99006C916D /* Main.storyboard */,
 				221CE1B61F42F63A005B216D /* iOS 开发.jpg */,
+				22AC4F231F46867D0042F4C7 /* Info.plist */,
+				22AC4F361F46892B0042F4C7 /* ViewController.h */,
+				22AC4F371F46892B0042F4C7 /* ViewController.m */,
+				22AC4F391F4689520042F4C7 /* main.m */,
 				227BC95B1F3ECE99006C916D /* Assets.xcassets */,
 				227BC95D1F3ECE99006C916D /* LaunchScreen.storyboard */,
-				227BC9601F3ECE99006C916D /* Info.plist */,
 				227BC94F1F3ECE99006C916D /* Supporting Files */,
 			);
 			path = HXHelper;
@@ -141,6 +149,68 @@
 				227BC9761F3ECE99006C916D /* Info.plist */,
 			);
 			path = HXHelperUITests;
+			sourceTree = "<group>";
+		};
+		22AC4F251F4687D40042F4C7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				22AC4F261F4687D40042F4C7 /* View */,
+				22AC4F271F4687D40042F4C7 /* ViewController */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		22AC4F261F4687D40042F4C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22AC4F271F4687D40042F4C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		22AC4F281F4687E00042F4C7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				22AC4F3B1F4689640042F4C7 /* AppDelegate.h */,
+				22AC4F3C1F4689640042F4C7 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		22AC4F2B1F4687E00042F4C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				22AC4F2C1F4687E00042F4C7 /* HXBaseViewController.h */,
+				22AC4F2D1F4687E00042F4C7 /* HXBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		22AC4F2E1F4687E00042F4C7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		22AC4F2F1F4687E00042F4C7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		22AC4F301F4687E00042F4C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +275,7 @@
 		227BC9441F3ECE99006C916D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = baitongshiji;
 				TargetAttributes = {
 					227BC94B1F3ECE99006C916D = {
@@ -280,9 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227BC9571F3ECE99006C916D /* ViewController.m in Sources */,
-				227BC9541F3ECE99006C916D /* AppDelegate.m in Sources */,
-				227BC9511F3ECE99006C916D /* main.m in Sources */,
+				22AC4F3A1F4689520042F4C7 /* main.m in Sources */,
+				22AC4F381F46892B0042F4C7 /* ViewController.m in Sources */,
+				22AC4F3D1F4689640042F4C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +499,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = DH387CSQPW;
-				INFOPLIST_FILE = HXHelper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HXHelper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.HXHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -441,11 +513,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = DH387CSQPW;
-				INFOPLIST_FILE = HXHelper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HXHelper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baitongshiji.HXHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
