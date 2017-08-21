@@ -10,4 +10,10 @@
 
 @interface HXBaseViewController : UIViewController
 
+@property (nonatomic,strong) UIView *redView;
+
+@property (nonatomic,strong) UIView *yellowView;
+
+@property (nonatomic,strong) UIView *greenView;
+
 @end
